@@ -258,7 +258,8 @@ body {
   margin: 14px 0px;
   padding: 6px 8px;
   /* background-color: rgba(26, 24, 24,.1); */
-  color: white;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
   /* background-color:rgba(255, 255, 255, 0.6); */
 }
 
@@ -293,7 +294,7 @@ body {
     margin: 10px 0px;
     padding: 3px 8px;
     /* background-color: rgba(26, 24, 24,.1); */
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 15px;
     /* background-color:rgba(255, 255, 255, 0.6); */
   }
@@ -326,25 +327,39 @@ body {
 
 @media(max-width:450px) {
   .title {
-    font-size: 9px;
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+  .hero .Img {
+    display: none;
   }
 
   .contact-section.service {
-    transform: translate(0px, -28px);
-    margin-top: 15px;
-    padding: 5px;
+    position: absolute;
+    top: 4rem;
+    right: 1.8rem;
+    height: auto;
+    width: 75%;
+    padding: 10px 5px;
   }
 
   .form-control {
-    margin: 5px;
+    width: 93%;
+    margin: 15px 15px;
     border-radius: 1px;
-    padding: 1px 5px;
-    font-size: 5px;
+    padding: 12px 10px;
+    font-size: 13px;
+    color: black;
   }
 
   .arrow-btn input {
-    padding: 2px 5px;
-    font-size: 8px;
+    padding: 6px 13px;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 2px;
+    border: 1px solid white;
+    margin-left: 10px;
   }
 
   .row {
@@ -375,7 +390,7 @@ body {
   }
 
   .about {
-    margin-top: 20px;
+    margin-top: 220px;
   }
 
   .image-content iframe {
@@ -453,6 +468,7 @@ body {
 
   .image-content p {
     width: 100%;
+    font-size: 17px;
     padding: 1rem 0px;
   }
 
@@ -499,12 +515,22 @@ body {
 @media (max-width: 470px) {
   .section3 h1 {
     text-align: center;
-    font-size: 30px;
-    line-height: 47px;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: bold;
+  }
+
+  .deep h1 {
+    font-weight: bold;
   }
 
   .section3 {
     padding: 10px 2rem;
+  }
+
+  .section3 p {
+    font-size: 17px;
+    line-height: 30px;
   }
 }
 
@@ -641,7 +667,8 @@ td {
 
 @media (max-width: 500px) {
   .section5 h1 {
-    font-size: 32px;
+    font-size: 25px;
+    font-weight: bold;
   }
 
   .section5 {
@@ -918,6 +945,20 @@ td {
 
   .img {
     height: 8.5vh;
+  }
+
+  .section8 h1 {
+    font-size: 29px;
+    font-weight: bold;
+  }
+
+  .section8 p {
+    font-size: 17px;
+  }
+
+  .section8 span {
+    color: rgb(255, 217, 0);
+    font-weight: bold;
   }
 }
 

@@ -562,13 +562,13 @@ footer {
     padding: 20px 1rem;
   }
   .carousel-item img{
-    height: 25vh;
+    height: 22vh;
   }
   .img1 img{
     height: 8vh;
   }
   .actions{
-    gap: 25px;
+    gap: 20px;
   }
 }
 @media(max-width:450px) {
@@ -625,5 +625,13 @@ footer {
   .container-fluid h1{
     font-size: 22px;
   }
-
+  .maidservices,.otherservices{
+    gap: 2rem;
+  }
+  .whatsapp{
+    padding: 1rem 0;
+  }
+.emailus{
+  margin-left: -18px;
+}
 }
